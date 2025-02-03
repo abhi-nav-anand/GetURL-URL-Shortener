@@ -1,0 +1,58 @@
+a {
+    letter-spacing: 2px;
+}
+.navbar-nav a:hover{
+    border-bottom: 3px solid white;
+}
+
+.navbar-brand {
+  letter-spacing: 0px;
+}
+
+.float{
+	position:fixed;
+	width:80px;
+	height:30px;
+	top:68px;
+	right:40px;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 4px 3px 5px 2px #999;
+  text-decoration: none;
+}
+
+.theme-switch{
+    letter-spacing: 1px;
+    font-size: small;
+    color: white;
+    text-decoration: none;
+ 
+}
+.dark-theme {
+    background-color: black;
+}
+
+.light-theme {
+  background: linear-gradient(5deg, #155799, #159957);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 29s ease infinite;
+  -moz-animation: AnimationName 29s ease infinite;
+  animation: AnimationName 29s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 9%}
+  50%{background-position:100% 92%}
+  100%{background-position:0% 9%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 9%}
+  50%{background-position:100% 92%}
+  100%{background-position:0% 9%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 9%}
+  50%{background-position:100% 92%}
+  100%{background-position:0% 9%}
+}

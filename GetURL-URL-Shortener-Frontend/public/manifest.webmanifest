@@ -1,0 +1,22 @@
+{
+  "short_name": "Get URL",
+  "name": "Get URL — Shorten your URL",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo100.png",
+      "type": "image/png",
+      "sizes": "100x100"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "display_override": ["fullscreen"],
+  "description": "With Get URL you can shorten your long URL links and track the clicks with your shortened URL",
+  "theme_color": "#ffffff",
+  "background_color": "#000000"
+}
